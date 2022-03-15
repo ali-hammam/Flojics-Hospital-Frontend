@@ -1,0 +1,74 @@
+.sider-color {
+  background-color: #ececec !important;
+  border: 1px solid #f2f0f0 !important;
+}
+
+.ant-layout-sider-trigger {
+  color: black;
+}
+
+.name {
+  width: 120px;
+}
+
+.user-dropdown {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  width: 100%;
+  height: 17px;
+  margin: 0 91px 5px 1px;
+}
+
+.user-menu-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.user-menu-item .ant-menu-submenu-title {
+  height: 35px !important;
+}
+
+.user-menu-item .ant-menu-submenu-title .anticon {
+  margin-bottom: 15%;
+}
+.user-menu-item .ant-menu-submenu-title .ant-menu-submenu-arrow {
+  top: 35%;
+}
+
+.ant-layout-sider-trigger {
+  visibility: hidden;
+}
+
+.side-bar {
+  overflow: auto !important;
+  background-color: #ececec !important;
+}
+
+.side-bar-ltr {
+  left: 0 !important;
+}
+
+.side-bar-rtl {
+  right: 0 !important;
+}
+
+.Header-R-16 {
+  font-size: 18px !important;
+}
+
+.ant-menu-inline .ant-menu-item:not(:last-child) {
+  margin-bottom: 0px !important;
+}
+
+span > svg {
+  width: 1.5em !important;
+  height: 1.5em !important;
+}
+
+.menu-items {
+  color: var(--menu-color) !important;
+}

@@ -1,0 +1,38 @@
+.home_body {
+  display: flex;
+  align-items: center;
+}
+
+.align_row {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+div.car_icon {
+  animation: displaceContent 2s forwards ease-out;
+}
+
+div.description {
+  animation: displaceDescription 2s forwards ease-out;
+}
+
+@keyframes displaceDescription {
+  from {
+    transform: translateX(-10em);
+  }
+  to {
+    transform: translateX(0em);
+  }
+}
+
+@keyframes displaceContent {
+  from {
+    transform: translateX(20em);
+  }
+  to {
+    transform: translateX(10em);
+  }
+}
